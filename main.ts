@@ -1,4 +1,4 @@
-basic.forever(function () {
+basic.forever(function on_forever() {
     pins.servoWritePin(AnalogPin.P8, 0)
     basic.pause(2000)
     pins.servoWritePin(AnalogPin.P8, 180)
